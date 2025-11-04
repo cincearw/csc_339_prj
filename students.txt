@@ -1,0 +1,6 @@
+Undergrad Mary 000111222 Junior 12 4.0
+Undergrad John 111222333 Senior 15 3.6
+Grad David 222333444 Masters 9 3.7 "How to learn data structures using C++/STL?"
+GradAsst Jason 333444555 PhD 9 3.9 "Design of efficient algorithms" "Grading 330 projects" "Dr.Fu" 20
+Undergrad Lisa 444555666 Freshman 9 3.8
+GradAsst Emily 555666777 PhD 6 4.0 "AI Optimization Techniques" "Research assistant" "Dr.Lee" 25
