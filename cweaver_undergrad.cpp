@@ -1,12 +1,3 @@
-/*
-    Project: C++ with STL — Inheritance, Polymorphism, and STL
-    Author: Cincear Weaver (cweaver)
-    File: cweaver_Undergrad.cpp
-    Description:
-        Demonstrates inheritance hierarchy among Student, Undergrad, Grad, and GradAsst.
-        Uses polymorphism, STL containers (list, vector), file I/O, and sorting.
-*/
-
 #include <iostream>
 #include <iomanip>
 #include <cstring>
@@ -17,7 +8,7 @@
 using namespace std;
 
 // -----------------------------------------------------
-// Base class: Student
+// Student Class
 // -----------------------------------------------------
 class Student {
 protected:
@@ -217,7 +208,7 @@ public:
 };
 
 // -----------------------------------------------------
-// Utility function: print header
+// print header
 // -----------------------------------------------------
 void printHeader() {
     cout << left << setw(20) << "Name"
@@ -230,7 +221,7 @@ void printHeader() {
 }
 
 // -----------------------------------------------------
-// Main Function
+// Main
 // -----------------------------------------------------
 int main() {
     ifstream fin("students.txt");
@@ -295,7 +286,7 @@ int main() {
     // Copy list to vector
     vector<Student*> vec(students.begin(), students.end());
 
-    // Sort by GPA (using polymorphism and overloaded <)
+    // Sort by GPA 
     sort(vec.begin(), vec.end(),
          [](Student* a, Student* b) { return *a < *b; });
 
